@@ -1,0 +1,72 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Maison · Bodoni Moda & Lexend",
+	"slug": "typography-maison",
+	"settings": {
+		"typography": {
+			"fontFamilies": [
+				{
+					"slug": "sans",
+					"name": "Lexend",
+					"fontFamily": "\"Lexend\", system-ui, -apple-system, sans-serif",
+					"fontFace": [
+						{
+							"fontFamily": "Lexend",
+							"fontStyle": "normal",
+							"fontWeight": "100 900",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/lexend-wght.woff2"
+							],
+							"unicodeRange": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+						}
+					]
+				},
+				{
+					"slug": "serif",
+					"name": "Bodoni Moda",
+					"fontFamily": "\"Bodoni Moda\", Didot, Georgia, serif",
+					"fontFace": [
+						{
+							"fontFamily": "Bodoni Moda",
+							"fontStyle": "normal",
+							"fontWeight": "400 900",
+							"fontDisplay": "swap",
+							"src": [
+								"file:./assets/fonts/bodoni-moda-wght.woff2"
+							],
+							"unicodeRange": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+						}
+					]
+				}
+			]
+		}
+	},
+	"styles": {
+		"typography": {
+			"fontWeight": "300"
+		},
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|serif",
+					"fontWeight": "500",
+					"textTransform": "uppercase",
+					"letterSpacing": "0.02em",
+					"lineHeight": "1.06"
+				}
+			}
+		},
+		"blocks": {
+			"core/site-title": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|serif",
+					"fontWeight": "500",
+					"letterSpacing": "0.04em",
+					"textTransform": "uppercase"
+				}
+			}
+		}
+	}
+}

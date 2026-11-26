@@ -1,0 +1,91 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Nusantara Stay Night",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"slug": "surface",
+					"name": "Surface",
+					"color": "#1A1A16"
+				},
+				{
+					"slug": "surface-2",
+					"name": "Surface alt",
+					"color": "#22221D"
+				},
+				{
+					"slug": "ink",
+					"name": "Ink",
+					"color": "#ECE5D4"
+				},
+				{
+					"slug": "ink-2",
+					"name": "Ink soft",
+					"color": "#BDB5A2"
+				},
+				{
+					"slug": "ink-3",
+					"name": "Ink faint",
+					"color": "#A39B88"
+				},
+				{
+					"slug": "deep",
+					"name": "Deep band",
+					"color": "#121310"
+				},
+				{
+					"slug": "on-deep",
+					"name": "Text on deep",
+					"color": "#ECE5D4"
+				},
+				{
+					"slug": "on-deep-2",
+					"name": "Soft text on deep",
+					"color": "#B4AE9D"
+				},
+				{
+					"slug": "tint",
+					"name": "Tint band",
+					"color": "#2A2924"
+				},
+				{
+					"slug": "on-tint",
+					"name": "Text on tint",
+					"color": "#ECE5D4"
+				},
+				{
+					"slug": "accent",
+					"name": "Accent",
+					"color": "#C8B88E"
+				},
+				{
+					"slug": "accent-strong",
+					"name": "Accent for text",
+					"color": "#C8B88E"
+				},
+				{
+					"slug": "line",
+					"name": "Line",
+					"color": "#34332C"
+				},
+				{
+					"slug": "oat",
+					"name": "Oat band",
+					"color": "#1A1A16"
+				},
+				{
+					"slug": "oat-2",
+					"name": "Oat band alt",
+					"color": "#1A1A16"
+				},
+				{
+					"slug": "pattern",
+					"name": "Pattern",
+					"color": "#4A483E"
+				}
+			]
+		}
+	}
+}

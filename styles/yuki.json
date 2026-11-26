@@ -1,0 +1,91 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Yuki",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"slug": "surface",
+					"name": "Surface",
+					"color": "#FFFFFF"
+				},
+				{
+					"slug": "surface-2",
+					"name": "Surface alt",
+					"color": "#EEF1F3"
+				},
+				{
+					"slug": "ink",
+					"name": "Ink",
+					"color": "#283139"
+				},
+				{
+					"slug": "ink-2",
+					"name": "Ink soft",
+					"color": "#4A5157"
+				},
+				{
+					"slug": "ink-3",
+					"name": "Ink faint",
+					"color": "#5F676D"
+				},
+				{
+					"slug": "deep",
+					"name": "Deep band",
+					"color": "#3B464E"
+				},
+				{
+					"slug": "on-deep",
+					"name": "Text on deep",
+					"color": "#F6F7F7"
+				},
+				{
+					"slug": "on-deep-2",
+					"name": "Soft text on deep",
+					"color": "#CBD2D6"
+				},
+				{
+					"slug": "tint",
+					"name": "Tint band",
+					"color": "#E9EDF0"
+				},
+				{
+					"slug": "on-tint",
+					"name": "Text on tint",
+					"color": "#283139"
+				},
+				{
+					"slug": "accent",
+					"name": "Accent",
+					"color": "#C4CCD1"
+				},
+				{
+					"slug": "accent-strong",
+					"name": "Accent for text",
+					"color": "#3B464E"
+				},
+				{
+					"slug": "line",
+					"name": "Line",
+					"color": "#E2E5E7"
+				},
+				{
+					"slug": "oat",
+					"name": "Oat band",
+					"color": "#FFFFFF"
+				},
+				{
+					"slug": "oat-2",
+					"name": "Oat band alt",
+					"color": "#FFFFFF"
+				},
+				{
+					"slug": "pattern",
+					"name": "Pattern",
+					"color": "#BFC6CB"
+				}
+			]
+		}
+	}
+}

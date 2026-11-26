@@ -1,0 +1,34 @@
+<!-- wp:template-part {"slug":"header-panel-solid","tagName":"header"} /-->
+<!-- wp:group {"tagName":"main","className":"nusantara-stay-k315 nusantara-stay-search","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"default"}} -->
+<main class="wp-block-group nusantara-stay-k315 nusantara-stay-search"><!-- wp:group {"tagName":"section","align":"full","className":"nusantara-stay-jhero nusantara-stay-narrow","layout":{"type":"constrained"}} -->
+<section class="wp-block-group alignfull nusantara-stay-jhero nusantara-stay-narrow"><!-- wp:paragraph {"align":"center","className":"nusantara-stay-eyebrow"} -->
+<p class="has-text-align-center nusantara-stay-eyebrow">Search</p>
+<!-- /wp:paragraph --><!-- wp:query-title {"type":"search","textAlign":"center","showPrefix":false,"level":1,"fontSize":"xx-large"} /--><!-- wp:search {"label":"Search","showLabel":false,"placeholder":"Search the site","buttonText":"Search","className":"nusantara-stay-find"} /--></section>
+<!-- /wp:group --><!-- wp:group {"tagName":"section","align":"full","className":"nusantara-stay-results nusantara-stay-narrow","layout":{"type":"constrained"}} -->
+<section class="wp-block-group alignfull nusantara-stay-results nusantara-stay-narrow"><!-- wp:query {"queryId":31,"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","inherit":true},"className":"nusantara-stay-results__query","layout":{"type":"default"}} -->
+<div class="wp-block-query nusantara-stay-results__query"><!-- wp:post-template {"className":"nusantara-stay-results__list"} -->
+<!-- wp:post-featured-image {"isLink":true,"aspectRatio":"4/5","className":"nusantara-stay-results__thumb"} /-->
+<!-- wp:post-terms {"term":"category","className":"nusantara-stay-results__kind"} /-->
+<!-- wp:post-date {"format":"j F Y","className":"nusantara-stay-results__date"} /-->
+<!-- wp:post-title {"isLink":true,"level":2,"className":"nusantara-stay-results__title"} /-->
+<!-- wp:post-excerpt {"excerptLength":24,"className":"nusantara-stay-results__excerpt"} /-->
+<!-- /wp:post-template -->
+<!-- wp:query-pagination {"className":"nusantara-stay-results__pager","layout":{"type":"flex","justifyContent":"space-between"}} -->
+<!-- wp:query-pagination-previous {"label":"← Newer"} /-->
+<!-- wp:query-pagination-numbers /-->
+<!-- wp:query-pagination-next {"label":"Older →"} /-->
+<!-- /wp:query-pagination -->
+<!-- wp:query-no-results -->
+<!-- wp:group {"className":"nusantara-stay-results__none","layout":{"type":"default"}} -->
+<div class="wp-block-group nusantara-stay-results__none"><!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">Nothing found. Try a shorter word, or start from one of these.</p>
+<!-- /wp:paragraph --><!-- wp:paragraph {"align":"center","className":"nusantara-stay-booking__links"} -->
+<p class="has-text-align-center nusantara-stay-booking__links"><a href="#home">Home</a> <a href="#menu">Menu</a> <a href="#rooms">Rooms</a> <a href="#journal">Journal</a> <a href="#visit">Visit</a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+<!-- /wp:query-no-results --></div>
+<!-- /wp:query --></section>
+<!-- /wp:group --></main>
+<!-- /wp:group -->
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
+<!-- wp:template-part {"slug":"menu-panel"} /-->
